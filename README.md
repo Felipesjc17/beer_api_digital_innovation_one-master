@@ -1,6 +1,6 @@
 # API REST de gerenciamento de estoques de cerveja.</h2>
 Foi desenvolvida uma API que realiza a contagem do estoque de cervejas no curso da Dio utilizando:
-Spring boot data jpa, Spring boot start validation, Spring boot starter web,  Spring boot starter test, Spring boot dev tools, Banco de testes h2, Testes com Junit e
+Spring boot data jpa, Spring boot start validation, Spring boot starter web,  Spring boot dev tools, Banco de testes h2, Testes com JUnit e Spring boot starter test, e
 Lombok.
 Swagger para a documentação da API.
 
