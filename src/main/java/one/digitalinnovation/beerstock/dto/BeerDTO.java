@@ -11,6 +11,7 @@ import javax.persistence.Enumerated;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.time.LocalDate;
 
 @Data
 @Builder
@@ -35,6 +36,10 @@ public class BeerDTO {
     @NotNull
     @Max(100)
     private Integer quantity;
+
+    @NotNull
+    private LocalDate dateValididity;
+
 
     @Enumerated(EnumType.STRING)
     @NotNull

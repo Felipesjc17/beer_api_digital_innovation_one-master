@@ -12,6 +12,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.time.LocalDate;
 
 @Data
 @Entity
@@ -34,6 +35,9 @@ public class Beer {
 
     @Column(nullable = false)
     private int quantity;
+
+    @Column(name = "local_date", columnDefinition = "DATE")
+    private LocalDate dateValididity;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
