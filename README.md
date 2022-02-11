@@ -6,6 +6,6 @@ Swagger para a documentação da API.
 
 ### Alterações no projeto de minha autoria:
 
-1 - Foi adicionado data de validade as cervejas.
+1 - Foi adicionado data de validade para as cervejas.
 Em breve será adicionado mais atributos e mais tipos de buscas no banco de dados para a API ficar cada vez mais completa.
 
